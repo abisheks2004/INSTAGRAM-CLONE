@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import { useNavigate } from 'react-router-dom'
-import instagramtext from './public/assests/instagramtext.png'
+import instagramtext from './assets/instagramtext.png'
 
 
 function Sidebar() {
