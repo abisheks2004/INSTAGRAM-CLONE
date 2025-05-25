@@ -2,8 +2,10 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import ViewStory from './ViewStory.jsx'
 import Profile from './Profile.jsx'
-import NotFound from './NotFound.jsx' // ✅ Add this
+import NotFound from './NotFound.jsx'
+import Feed from './Feed.jsx'  // <-- Add this import
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -12,7 +14,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Feed /> // Optional: if you want Feed to be a separate route too
+        element: <Feed />
       },
       {
         path: 'story/:id/:tot',
@@ -33,6 +35,7 @@ const router = createBrowserRouter([
     element: <NotFound />
   }
 ])
+
 createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 )
