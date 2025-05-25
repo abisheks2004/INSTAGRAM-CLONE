@@ -2,8 +2,8 @@
     {
       "id": "1",
       "username": "johndoe",
-      "profilePic": "/src/assets/p1.jpeg",
-      "image": "/src/assets/waternature.jpeg",
+      "profilePic": "/p1.jpeg",
+      "image": "/waternature.jpeg",
       "caption": "Enjoying the beach 🏖️",
       "likes": 124,
       "comments": [
@@ -21,8 +21,8 @@
     {
       "id": "2",
       "username": "janedoe",
-      "profilePic": "/src/assets/p2.jpeg",
-      "image": "/src/assets/nature.jpeg",
+      "profilePic": "/p2.jpeg",
+      "image": "/nature.jpeg",
       "caption": "Sunset views 🌇",
       "likes": 98,
       "comments": [
@@ -36,8 +36,8 @@
     {
       "id": "3",
       "username": "alexsmith",
-      "profilePic": "/src/assets/p3.jpeg",
-      "image": "/src/assets/naturebird.jpeg",
+      "profilePic": "/p3.jpeg",
+      "image": "/naturebird.jpeg",
       "caption": "Late night coding 💻☕",
       "likes": 87,
       "comments": [
