@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
 
-  "homepage": "https://abisheks2004.github.io/INSTAGRAM-CLONE",
+  "homepage": "https://abisheks2004.github.io/INSTAGRAM-CLONE/",
 
   "scripts": {
     "dev": "vite",
