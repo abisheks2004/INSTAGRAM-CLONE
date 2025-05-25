@@ -14,19 +14,25 @@ function ErrorPage() {
   )
 }
 
+function NotFound() {
+  return (
+    <div style={{ padding: 20, textAlign: 'center' }}>
+      <h1>404 - Page Not Found</h1>
+      <p>Sorry, the page you requested does not exist.</p>
+    </div>
+  )
+}
+
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <ErrorPage />,  // ← Add this line here
-  },
-  {
-    path: '/story/:id/:tot',
-    element: <ViewStory />,
-  },
-  {
-    path: '/profile',
-    element: <Profile />,
+    errorElement: <ErrorPage />, // handles component errors
+    children: [
+      { path: 'story/:id/:tot', element: <ViewStory /> },
+      { path: 'profile', element: <Profile /> },
+      { path: '*', element: <NotFound /> }, // handles unmatched routes (404)
+    ],
   },
 ])
 
