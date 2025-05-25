@@ -1,26 +1,27 @@
+import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ViewStory from './ViewStory.jsx'
 import Profile from './Profile.jsx'
-import NotFound from './NotFound.jsx'
-import Feed from './Feed.jsx'
 
-import {
-  HashRouter,
-  Routes,
-  Route,
-} from 'react-router-dom'
-
+const router = createBrowserRouter(
+[
+{
+  path:'/',
+  element:<App/>
+},
+{
+  path :'/story/:id/:tot',
+  element:<ViewStory/>
+},
+{
+ path :'/profile',
+  element:<Profile/>
+}
+]
+)
 createRoot(document.getElementById('root')).render(
-  <HashRouter>
-    <Routes>
-      <Route path="/" element={<App />}>
-        <Route index element={<Feed />} />
-        <Route path="story/:id/:tot" element={<ViewStory />} />
-        <Route path="profile" element={<Profile />} />
-        <Route path="*" element={<NotFound />} />
-      </Route>
-      <Route path="*" element={<NotFound />} />
-    </Routes>
-  </HashRouter>
+
+  <RouterProvider router={router} />
 )

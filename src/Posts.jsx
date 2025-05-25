@@ -4,14 +4,11 @@ function Posts() {
 
   const [posts, setPosts] = useState([])
 
-  useEffect(() => {
-  fetch('http://localhost:3001/posts')
-    .then((response) => {
-      if (!response.ok) throw new Error('Network response was not ok');
-      return response.json();
-    })
+ useEffect(() => {
+  fetch('/db/posts.json')
+    .then((response) => response.json())
     .then((data) => setPosts(data))
-    .catch((error) => console.log('Fetch error:', error));
+    .catch((error) => console.log(error));
 }, []);
 
 
