@@ -2,27 +2,27 @@
     {
       "id": "1",
       "username": "johndoe",
-      "profilePic": "/src/assets/p1.jpeg",
-      "image": "/src/assets/waternature.jpeg"
+      "profilePic": "/p1.jpeg",
+      "image": "/waternature.jpeg"
     },
     {
       "id": "2",
       "username": "janedoe",
-      "profilePic": "/src/assets/p2.jpeg"
+      "profilePic": "/p2.jpeg"
     },
     {
       "id": "3",
       "username": "alexsmith",
-      "profilePic": "/src/assets/p3.jpeg"
+      "profilePic": "/p3.jpeg"
     },
     {
       "id": "4",
       "username": "bkjdsjanedoe",
-      "profilePic": "/src/assets/p2.jpeg"
+      "profilePic": "/p2.jpeg"
     },
     {
       "id": "5",
       "username": "kghyalexsmith",
-      "profilePic": "/src/assets/p3.jpeg"
+      "profilePic": "/p3.jpeg"
     }
   ]

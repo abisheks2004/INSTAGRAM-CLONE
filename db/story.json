@@ -2,19 +2,19 @@
     {
       "id": "1",
       "username": "johndoe",
-      "profilePic": "/src/assets/p1.jpeg",
-      "image": "/src/assets/waternature.jpeg"
+      "profilePic": "/p1.jpeg",
+      "image": "/waternature.jpeg"
     },
     {
       "id": "2",
       "username": "bjabdgiukned",
-      "profilePic": "/src/assets/p2.jpeg",
-      "image": "/src/assets/nature.jpeg"
+      "profilePic": "/p2.jpeg",
+      "image": "/nature.jpeg"
     },
     {
       "id": "3",
       "username": "alexsmith",
-      "profilePic": "/src/assets/p3.jpeg",
-      "image": "/src/assets/naturebird.jpeg"
+      "profilePic": "/p3.jpeg",
+      "image": "/naturebird.jpeg"
     }
   ]
