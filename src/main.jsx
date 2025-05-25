@@ -5,7 +5,7 @@ import ViewStory from './ViewStory.jsx'
 import Profile from './Profile.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <HashRouter basename="/INSTAGRAM-CLONE">
+  <HashRouter basename="/INSTAGRAM-CLONE/">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/story/:id/:tot" element={<ViewStory />} />
