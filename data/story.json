@@ -1,0 +1,22 @@
+{
+  "story": [
+    {
+      "id": "1",
+      "username": "johndoe",
+      "profilePic": "/assets/p1.jpeg",
+      "image": "/assets/waternature.jpeg"
+    },
+    {
+      "id": "2",
+      "username": "bjabdgiukned",
+      "profilePic": "/assets/p2.jpeg",
+      "image": "/assets/nature.jpeg"
+    },
+    {
+      "id": "3",
+      "username": "alexsmith",
+      "profilePic": "/assets/p3.jpeg",
+      "image": "/assets/naturebird.jpeg"
+    }
+  ]
+}

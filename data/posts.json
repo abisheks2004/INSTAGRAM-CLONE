@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "username": "johndoe",
+      "profilePic": "/assets/p1.jpeg",
+      "image": "/assets/waternature.jpeg",
+      "caption": "Enjoying the beach 🏖️",
+      "likes": 124,
+      "comments": [
+        { "username": "janedoe", "text": "Looks amazing!" },
+        { "username": "alexsmith", "text": "Take me with you next time 😄" }
+      ],
+      "timestamp": "2025-05-04T12:34:56Z"
+    },
+    {
+      "id": "2",
+      "username": "janedoe",
+      "profilePic": "/assets/p2.jpeg",
+      "image": "/assets/nature.jpeg",
+      "caption": "Sunset views 🌇",
+      "likes": 98,
+      "comments": [
+        { "username": "johndoe", "text": "Incredible shot!" }
+      ],
+      "timestamp": "2025-05-03T18:22:10Z"
+    },
+    {
+      "id": "3",
+      "username": "alexsmith",
+      "profilePic": "/assets/p3.jpeg",
+      "image": "/assets/naturebird.jpeg",
+      "caption": "Late night coding 💻☕",
+      "likes": 87,
+      "comments": [
+        { "username": "johndoe", "text": "Relatable 😂" },
+        { "username": "janedoe", "text": "Productive nights!" }
+      ],
+      "timestamp": "2025-05-02T23:10:00Z"
+    }
+  ]
+}
