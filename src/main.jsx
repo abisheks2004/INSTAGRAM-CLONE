@@ -11,7 +11,7 @@ const router = createBrowserRouter([
   { path: '/story/:id/:tot', element: <ViewStory /> },
   { path: '/profile', element: <Profile /> },
   { path: '/suggestions', element: <SuggestionsPage /> } // 👈 add this
-]);
+],{ basename: '/instagram-clone' });
 
 createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
