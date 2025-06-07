@@ -3,8 +3,8 @@
     {
       "id": "1",
       "username": "johndoe",
-      "profilePic": "/assets/p1.jpeg",
-      "image": "/assets/waternature.jpeg",
+      "profilePic": "/instagram-clone/assets/p1.jpeg",
+      "image": "/instagram-clone/assets/waternature.jpeg",
       "caption": "Enjoying the beach 🏖️",
       "likes": 124,
       "comments": [
@@ -22,8 +22,8 @@
     {
       "id": "2",
       "username": "janedoe",
-      "profilePic": "/assets/p2.jpeg",
-      "image": "/assets/nature.jpeg",
+      "profilePic": "/instagram-clone/assets/p2.jpeg",
+      "image": "/instagram-clone/assets/nature.jpeg",
       "caption": "Sunset views 🌇",
       "likes": 98,
       "comments": [
@@ -37,8 +37,8 @@
     {
       "id": "3",
       "username": "alexsmith",
-      "profilePic": "/assets/p3.jpeg",
-      "image": "/assets/naturebird.jpeg",
+      "profilePic": "/instagram-clone/assets/p3.jpeg",
+      "image": "/instagram-clone/assets/naturebird.jpeg",
       "caption": "Late night coding 💻☕",
       "likes": 87,
       "comments": [
@@ -57,54 +57,54 @@
   "profile": {
     "id": 1,
     "username": "ABISHEK",
-    "profilePic": "/assets/p1.jpeg"
+    "profilePic": "/instagram-clone/assets/p1.jpeg"
   },
   "suggestions": [
     {
       "id": "1",
       "username": "johndoe",
-      "profilePic": "/assets/p1.jpeg",
-      "image": "/assets/waternature.jpeg"
+      "profilePic": "/instagram-clone/assets/p1.jpeg",
+      "image": "/instagram-clone/assets/waternature.jpeg"
     },
     {
       "id": "2",
       "username": "janedoe",
-      "profilePic": "/assets/p2.jpeg"
+      "profilePic": "/instagram-clone/assets/p2.jpeg"
     },
     {
       "id": "3",
       "username": "alexsmith",
-      "profilePic": "/assets/p3.jpeg"
+      "profilePic": "/instagram-clone/assets/p3.jpeg"
     },
     {
       "id": "4",
       "username": "bkjdsjanedoe",
-      "profilePic": "/assets/p2.jpeg"
+      "profilePic": "/instagram-clone/assets/p2.jpeg"
     },
     {
       "id": "5",
       "username": "kghyalexsmith",
-      "profilePic": "/assets/p3.jpeg"
+      "profilePic": "/instagram-clone/assets/p3.jpeg"
     }
   ],
   "story": [
     {
       "id": "1",
       "username": "johndoe",
-      "profilePic": "/assets/p1.jpeg",
-      "image": "/assets/waternature.jpeg"
+      "profilePic": "/instagram-clone/assets/p1.jpeg",
+      "image": "/instagram-clone/assets/waternature.jpeg"
     },
     {
       "id": "2",
       "username": "bjabdgiukned",
-      "profilePic": "/assets/p2.jpeg",
-      "image": "/assets/nature.jpeg"
+      "profilePic": "/instagram-clone/assets/p2.jpeg",
+      "image": "/instagram-clone/assets/nature.jpeg"
     },
     {
       "id": "3",
       "username": "alexsmith",
-      "profilePic": "/assets/p3.jpeg",
-      "image": "/assets/naturebird.jpeg"
+      "profilePic": "/instagram-clone/assets/p3.jpeg",
+      "image": "/instagram-clone/assets/naturebird.jpeg"
     }
   ],
   "followers": [
