@@ -10,13 +10,13 @@ function Suggestions() {
 
   useEffect(() => {
     async function fetchProfile() {
-      const res = await fetch('/data/profile.json');
+      const res = await fetch('/instagram-clone/data/profile.json');
       const data = await res.json();
       setProfile(data.profile);
     }
 
     async function fetchSuggestions() {
-      const res = await fetch('/data/suggestions.json');
+      const res = await fetch('/instagram-clone/data/suggestions.json');
       const data = await res.json();
       setSuggestions(data.suggestions);
     }

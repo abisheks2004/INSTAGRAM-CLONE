@@ -16,7 +16,7 @@ function ViewStory() {
       return;
     }
 
-    fetch('/data/story.json')
+    fetch('/instagram-clone/data/story.json')
       .then((res) => res.json())
       .then((data) => {
         const match = data.story.find((item) => item.id === id || item.id === String(numericId));

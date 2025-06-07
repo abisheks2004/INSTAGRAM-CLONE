@@ -9,7 +9,7 @@ function Stories() {
   let tot = 0
   
 useEffect(() => {
-  fetch('/data/story.json')
+  fetch('/instagram-clone/data/story.json')
     .then((res) => res.json())
     .then((data) => setStories(data.story)) // assuming your JSON has a "story" array
     .catch((err) => console.log(err));

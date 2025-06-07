@@ -14,8 +14,8 @@ function Profile() {
   const fetchData = async () => {
     try {
       const [profileRes, followersRes] = await Promise.all([
-        fetch('/data/profile.json').then(res => res.json()),
-        fetch('/data/followers.json').then(res => res.json())
+        fetch('/instagram-clone/data/profile.json').then(res => res.json()),
+        fetch('/instagram-clone/data/followers.json').then(res => res.json())
       ]);
       setProfile(profileRes.profile);
       setFollowers(followersRes.followers);

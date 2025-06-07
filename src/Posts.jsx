@@ -5,7 +5,7 @@ function Posts() {
   const [posts, setPosts] = useState([])
 
  useEffect(() => {
-    fetch('/data/posts.json')
+    fetch('/instagram-clone/data/posts.json')
       .then((res) => res.json())
       .then((data) => setPosts(data.posts)) // because your JSON has { "posts": [ ... ] }
       .catch((error) => console.error('Error fetching posts:', error));
