@@ -22,7 +22,7 @@ function Sidebar() {
         <>
             {/* Desktop Sidebar */}
             <div className="hidden md:flex flex-col gap-2 w-48 p-4">
-                <img src='/assets/instagramtext.png' alt="logo" className='w-28 mb-6' />
+                <img src='/instagram-clone/assets/instagramtext.png' alt="logo" className='w-28 mb-6' />
                 {menuItems.map((item) => (
                     <div key={item.name}
                         className='flex items-center gap-2 p-2 cursor-pointer rounded-md hover:bg-gray-100 transition'
